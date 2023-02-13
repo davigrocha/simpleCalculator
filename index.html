@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+ <meta charset="UTF-8">
+ <title>CALCULADORA ONLINE</title>
+ <link href="http://fonts.googleapis.com/css?family=Roboto"
+rel="stylesheet" type="text/css">
+ <link rel="stylesheet" href="estilo.css" />
+ <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="conteudo">
+    <div class="formulario">
+    <form method="" action="">
+    <div>
+    <h2 class="cabecalho">CALCULADORA SIMPLES</h2>
+    </div>
+    <div class="campo">
+    <label>Insira o primeiro valor:</label>
+    <input type="text" id="txtValor1">
+    </div>
+    <div class="campo">
+    <label>Insira o segundo valor:</label>
+    <input type="text" id="txtValor2">
+    </div>
+    <div class="campo">
+    <label>Selecione a operação desejada:</label>
+    <select name="cbxOperacao" id="cbxOperacao">
+    <option value="+">Adição</option>
+    <option value="-">Subtração</option>
+    <option value="/">Divisão</option>
+    <option value="*">Multiplicação</option>
+    </select>
+    </div>
+    <div class="botao">
+    <button type="button" onclick="calcularValores()">CALCULAR</
+   button>
+
+</div>
+<div class="campo">
+<label>Resultado:</label>
+<span class="resultado" id="txtResultado">-</span>
+</div>
+</form>
+</div>
+</body>
+</html>
